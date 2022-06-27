@@ -1,0 +1,10 @@
+{
+    "name": "broken-dind",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "remoteUser": "node",
+    "features": {
+        "docker-in-docker": "latest",
+    }
+}
